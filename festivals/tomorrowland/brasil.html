@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="./../../css/style.css">
 </head>
 <body>
+    <!-- Barra de Navegación -->
     <header>
         <nav class="navbar">
             <div class="logo">🎪 FestivalGuide</div>
             <ul class="nav-links">
-                <li><a href="./../../index.html">Inicio</a></li>
+                <li><a href="../../index.html">Inicio</a></li>
                 <li><a href="./brasil.html" class="active">Tomorrowland Brasil</a></li>
             </ul>
             
+            <!-- Controles de navegación con el selector -->
             <div class="nav-controls">
                 <select id="currency-selector" class="currency-dropdown">
                     <option value="all">Todas las monedas</option>
@@ -31,36 +33,41 @@
         </nav>
     </header>
 
+    <!-- Contenido Principal -->
     <main class="container">
         <article class="guide-content">
             <div class="hero-section">
                 <h1>🇧🇷 Tomorrowland Brasil</h1>
-                <h2>LA CARPA ES MIA MAXII</h2>
-                <p>Todo lo que necesitas saber: precios, opciones de alojamiento, transporte y consejos clave.</p>
-                <p class="exchange-rate"><em>Nota: Los precios expresados son estimaciones basadas en el tipo de cambio aproximado (1 USD = 5.11 R$ | 1 R$ = 288 ARS).</em></p>
+                <h2>La CARPA ES MIA MAXII, NO LEO LLOROS</h2>
+                <p>Todo lo que necesitas saber: requisitos, entradas, campings, vuelos y logística.</p>
+                <p class="exchange-rate"><em>Nota: Los precios expresados son estimaciones (1 USD = 5.11 R$ | 1 R$ = 288 ARS).</em></p>
             </div>
 
             <section class="guide-section">
-                <h2>🎟️ 1. Tipos de Entradas al Festival (Festival Passes)</h2>
-                <p>Las entradas generales te dan acceso al festival de viernes a domingo. <strong>Atención: Estas entradas NO incluyen camping.</strong></p>
-                <p>En Brasil existen tres tarifas diferentes: <strong>Full</strong> (público general/extranjeros), <strong>Social</strong> (con descuento donando a una ONG) y <strong>Meia-Entrada</strong> (exclusivo para estudiantes brasileños).</p>
-                
+                <h2>📋 1. Requisitos Estrictos para Asistir</h2>
+                <ul>
+                    <li><strong>Edad Mínima:</strong> Estrictamente para mayores de 18 años cumplidos al momento del festival. No hay excepciones.</li>
+                    <li><strong>Pre-Registro:</strong> Obligatorio crear cuenta en <em> <a target="_blank" href="https://brasil.tomorrowland.com/es/welcome/">my.tomorrowland.com</a></em> y pre-registrarse. Sin esto, no hay compra posible.</li>
+                    <li><strong>Documentación:</strong> DNI físico (Mercosur) o Pasaporte vigente para la compra, validación y entrada.</li>
+                    <li><strong>Personalización:</strong> Cada pulsera debe estar a nombre del asistente. Si el nombre no coincide con el DNI en la puerta, se niega el ingreso.</li>
+                </ul>
+            </section>
+
+            <section class="guide-section">
+                <h2>🎟️ 2. Tipos de Entradas (Sin Camping)</h2>
+                <p>Pases de viernes a domingo. No incluyen acceso a DreamVille.</p>
                 <div class="cards-grid">
                     <div class="card">
                         <h3>Full Madness Pass (Regular)</h3>
-                        <p>Acceso estándar a todos los escenarios por los 3 días.</p>
-                        <br>
                         <ul>
-                            <li><strong>General (Full):</strong> <span class="price" data-brl="R$ 3.160" data-usd="USD 618" data-ars="ARS 910.000">R$ 3.160 | USD 618 | ARS 910.000</span></li>
+                            <li><strong>Full:</strong> <span class="price" data-brl="R$ 3.160" data-usd="USD 618" data-ars="ARS 910.000">R$ 3.160 | USD 618 | ARS 910.000</span></li>
                             <li><strong>Social:</strong> <span class="price" data-brl="R$ 1.895" data-usd="USD 371" data-ars="ARS 545.000">R$ 1.895 | USD 371 | ARS 545.000</span></li>
                         </ul>
                     </div>
                     <div class="card">
                         <h3>Comfort Pass (VIP)</h3>
-                        <p>Incluye zonas VIP con vista al Mainstage, baños premium y barras exclusivas.</p>
-                        <br>
                         <ul>
-                            <li><strong>General (Full):</strong> <span class="price" data-brl="R$ 5.535" data-usd="USD 1.083" data-ars="ARS 1.594.000">R$ 5.535 | USD 1.083 | ARS 1.594.000</span></li>
+                            <li><strong>Full:</strong> <span class="price" data-brl="R$ 5.535" data-usd="USD 1.083" data-ars="ARS 1.594.000">R$ 5.535 | USD 1.083 | ARS 1.594.000</span></li>
                             <li><strong>Social:</strong> <span class="price" data-brl="R$ 4.300" data-usd="USD 841" data-ars="ARS 1.238.000">R$ 4.300 | USD 841 | ARS 1.238.000</span></li>
                         </ul>
                     </div>
@@ -68,72 +75,153 @@
             </section>
 
             <section class="guide-section">
-                <h2>⛺ 2. Alojamiento oficial: DreamVille</h2>
-                <p>DreamVille es la ciudadela oficial del festival. <strong>Si compras un paquete de DreamVille, la entrada al festival ya está incluida</strong>, además de <em>The Gathering</em>.</p>
+                <h2>⛺ 3. Catálogo Completo: DreamVille</h2>
+                <p>Todos estos paquetes <strong>INCLUYEN la entrada al festival por los 3 días</strong> y acceso a la fiesta exclusiva The Gathering.</p>
                 
+                <h3 style="color: var(--accent-color); margin-top: 1.5rem;">Nivel 1: Make It Your Self</h3>
                 <div class="cards-grid">
                     <div class="card">
                         <h3>Magnificent Greens</h3>
-                        <p>La opción más económica. Llevas tu propia carpa.</p>
+                        <p>La zona más festiva. Llevas tu carpa y equipo. Espacio por orden de llegada.</p>
                         <br>
                         <ul>
-                            <li><strong>Precio:</strong> Desde <span class="price" data-brl="R$ 3.300" data-usd="USD 645" data-ars="ARS 950.000">R$ 3.300 | USD 645 | ARS 950.000</span> por persona.</li>
+                            <li><strong>Por persona:</strong> Aprox. <span class="price" data-brl="R$ 3.300" data-usd="USD 645" data-ars="ARS 950.000">R$ 3.300 | USD 645 | ARS 950.000</span></li>
                         </ul>
                     </div>
+                </div>
+
+                <h3 style="color: var(--accent-color); margin-top: 1.5rem;">Nivel 2: Comodidad (Llegar y dormir)</h3>
+                <div class="cards-grid">
                     <div class="card">
                         <h3>Easy Tent</h3>
-                        <p>Carpa armada oficial, colchón inflable y bolsa de dormir.</p>
+                        <p>Carpa oficial de Tomorrowland (te la llevas), colchón inflable doble, bolsa de dormir.</p>
                         <br>
                         <ul>
-                            <li><strong>Precio:</strong> Aprox. <span class="price" data-brl="R$ 5.100" data-usd="USD 998" data-ars="ARS 1.468.000">R$ 5.100 | USD 998 | ARS 1.468.000</span> por persona.</li>
+                            <li><strong>Por persona:</strong> <span class="price" data-brl="R$ 5.100" data-usd="USD 998" data-ars="ARS 1.468.000">R$ 5.100 | USD 998 | ARS 1.468.000</span></li>
                         </ul>
                     </div>
                     <div class="card">
-                        <h3>The Montagoe (Glamping)</h3>
-                        <p>Zona exclusiva con cabañas, camas reales y piscina.</p>
+                        <h3>Spectacular Easy Tent</h3>
+                        <p>Igual que la anterior + piso de madera, enchufe 220v en la carpa y duchas premium gratis.</p>
                         <br>
                         <ul>
-                            <li><strong>Precio:</strong> Desde <span class="price" data-brl="R$ 12.000 a R$ 22.000" data-usd="USD 2.350 a USD 4.300" data-ars="ARS 3.450.000 a 6.330.000">R$ 12.000 a R$ 22.000 | USD 2.350 a USD 4.300 | ARS 3.450.000 a 6.330.000</span> por pareja.</li>
+                            <li><strong>Por persona:</strong> <span class="price" data-brl="R$ 6.390" data-usd="USD 1.250" data-ars="ARS 1.840.000">R$ 6.390 | USD 1.250 | ARS 1.840.000</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3 style="color: var(--accent-color); margin-top: 1.5rem;">Nivel 3: The Montagoe (Glamping VIP)</h3>
+                <p>Zona exclusiva con bar, restaurante, piscina y baños de hotel. <strong>Precios totales por pareja.</strong></p>
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>Kokono</h3>
+                        <p>Tienda gigante tipo safari, camas reales, cajonera y enchufes.</p>
+                        <br>
+                        <ul>
+                            <li><strong>Total (2 pers):</strong> <span class="price" data-brl="R$ 12.775" data-usd="USD 2.500" data-ars="ARS 3.680.000">R$ 12.775 | USD 2.500 | ARS 3.680.000</span></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Cabana</h3>
+                        <p>Cabaña de madera con cerradura, camas con sábanas, terraza y sillas.</p>
+                        <br>
+                        <ul>
+                            <li><strong>Total (2 pers):</strong> <span class="price" data-brl="R$ 14.300" data-usd="USD 2.800" data-ars="ARS 4.118.000">R$ 14.300 | USD 2.800 | ARS 4.118.000</span></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Spectacular Relax Room</h3>
+                        <p>Contenedores de lujo con aire acondicionado y camas premium.</p>
+                        <br>
+                        <ul>
+                            <li><strong>Total (2 pers):</strong> <span class="price" data-brl="R$ 16.350" data-usd="USD 3.200" data-ars="ARS 4.710.000">R$ 16.350 | USD 3.200 | ARS 4.710.000</span></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Ensuite</h3>
+                        <p>La máxima exclusividad: Baño privado dentro de tu habitación + aire acondicionado.</p>
+                        <br>
+                        <ul>
+                            <li><strong>Total (2 pers):</strong> <span class="price" data-brl="R$ 23.000" data-usd="USD 4.500" data-ars="ARS 6.620.000">R$ 23.000 | USD 4.500 | ARS 6.620.000</span></li>
                         </ul>
                     </div>
                 </div>
             </section>
 
             <section class="guide-section">
-                <h2>✈️ 3. Global Journey (Paquetes Internacionales)</h2>
-                <p>Si querés resolver todo de una vez y asegurar tu entrada antes que nadie, <strong>Global Journey es el camino</strong>. Estos paquetes son ideales para extranjeros e incluyen:</p>
-                
-                <div class="cards-grid">
-                    <ul>
-                        <li>Vuelo o Bus desde ciudades principales (ej. Buenos Aires, Santiago, Bogotá).</li>
-                        <li>Alojamiento (en DreamVille o en Hoteles asociados en São Paulo).</li>
-                        <li>Traslados diarios (Hotel - Festival - Hotel).</li>
-                        <li>Entradas (Regular o Comfort).</li>
-                        <li>Souvenir y bolsa de regalos oficial exclusiva.</li>
-                    </ul>
+                <h2>✈️ 4. Vuelos desde Buenos Aires</h2>
+                <p>El festival es en Itu (a 90 km de São Paulo). Comprando con 6 meses de anticipación:</p>
+                <ul>
+                    <li><strong>Aerolíneas Low Cost (Flybondi / JetSMART):</strong> <span class="price" data-brl="R$ 1.275 a R$ 1.790" data-usd="USD 250 a USD 350" data-ars="ARS 367.000 a ARS 515.000">R$ 1.275 a R$ 1.790 | USD 250 a USD 350 | ARS 367.000 a ARS 515.000</span> ida y vuelta (ideal viajando ligero).</li>
+                    <li><strong>Aerolíneas Tradicionales (LATAM / Gol / AR):</strong> <span class="price" data-brl="R$ 2.040 a R$ 2.810" data-usd="USD 400 a USD 550" data-ars="ARS 588.000 a ARS 808.000">R$ 2.040 a R$ 2.810 | USD 400 a USD 550 | ARS 588.000 a ARS 808.000</span> ida y vuelta (ideal para despachar carpas).</li>
+                </ul>
+                <div class="card" style="margin-top: 1rem; border-color: var(--accent-color);">
+                    <h3>💡 Tip Experto</h3>
+                    <p>El aeropuerto de <strong>Viracopos (VCP) en Campinas</strong> queda mucho más cerca del festival que Guarulhos (GRU). Si consiguen llegar allí, el tramo terrestre será mucho más económico y rápido.</p>
                 </div>
-                <em>Los precios varían muchísimo según el punto de partida y el hotel/camping elegido, pero calcula un mínimo de USD 1.500 - USD 2.500 por persona saliendo desde Sudamérica.</em>
             </section>
 
             <section class="guide-section">
-                <h2>🍔 4. Comida, Bebida y Sistema Cashless</h2>
-                <p>Se paga con <strong>Pearls (Perlas)</strong>, la moneda oficial del festival.</p>
+                <h2>🍔 5. Comida, Bebida y Cashless</h2>
+                <p>Se paga con <strong>Pearls (Perlas)</strong> en la pulsera.</p>
                 <ul>
                     <li><strong>Agua / Gaseosa:</strong> <span class="price" data-brl="R$ 18" data-usd="USD 3.50" data-ars="ARS 5.200">R$ 18 | USD 3.50 | ARS 5.200</span></li>
                     <li><strong>Cerveza:</strong> <span class="price" data-brl="R$ 35" data-usd="USD 6.85" data-ars="ARS 10.000">R$ 35 | USD 6.85 | ARS 10.000</span></li>
-                    <li><strong>Tragos / Cócteles:</strong> <span class="price" data-brl="R$ 60 a R$ 80" data-usd="USD 12 a USD 16" data-ars="ARS 17.500 a ARS 23.000">R$ 60 a R$ 80 | USD 12 a USD 16 | ARS 17.500 a ARS 23.000</span></li>
+                    <li><strong>Tragos:</strong> <span class="price" data-brl="R$ 60 a R$ 80" data-usd="USD 12 a USD 16" data-ars="ARS 17.500 a ARS 23.000">R$ 60 a R$ 80 | USD 12 a USD 16 | ARS 17.500 a ARS 23.000</span></li>
                     <li><strong>Comida rápida:</strong> <span class="price" data-brl="R$ 60" data-usd="USD 11.75" data-ars="ARS 17.300">R$ 60 | USD 11.75 | ARS 17.300</span></li>
                 </ul>
             </section>
 
             <section class="guide-section">
-                <h2>🚌 5. Logística y Traslados</h2>
-                <ul>
-                    <li><strong>Shuttle Oficial:</strong> <span class="price" data-brl="R$ 200" data-usd="USD 39" data-ars="ARS 57.600">R$ 200 | USD 39 | ARS 57.600</span> por día.</li>
-                    <li><strong>Estacionamiento oficial:</strong> <span class="price" data-brl="R$ 180" data-usd="USD 35" data-ars="ARS 51.800">R$ 180 | USD 35 | ARS 51.800</span> por día.</li>
-                </ul>
+                <h2>💰 6. Presupuesto Total Estimado (Por Persona)</h2>
+                <p>Para que tengan una idea real de cuánto hay que empezar a ahorrar. Dividir gastos de alojamiento en grupo siempre abarata los costos.</p>
+                
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>Opción "Pobre" (Low Cost)</h3>
+                        <p>Ideal para ir a puro aguante cuidando el bolsillo.</p>
+                        <br>
+                        <ul>
+                            <li><strong>Vuelo Low Cost:</strong> <span class="price" data-brl="R$ 1.530" data-usd="USD 300" data-ars="ARS 432.000">R$ 1.530 | USD 300 | ARS 432.000</span></li>
+                            <li><strong>Magnificent Greens (Entrada + Camping):</strong> <span class="price" data-brl="R$ 3.300" data-usd="USD 645" data-ars="ARS 950.000">R$ 3.300 | USD 645 | ARS 950.000</span></li>
+                            <li><strong>Comidas/Bebidas (Básico):</strong> <span class="price" data-brl="R$ 1.635" data-usd="USD 320" data-ars="ARS 460.000">R$ 1.635 | USD 320 | ARS 460.000</span></li>
+                            <li style="margin-top: 15px; border-top: 1px solid #333; padding-top: 15px; color: var(--accent-color); font-size: 1.1rem;">
+                                <strong>Total Estimado:</strong> <span class="price" data-brl="R$ 6.465" data-usd="USD 1.265" data-ars="ARS 1.842.000">R$ 6.465 | USD 1.265 | ARS 1.842.000</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Opción "Equilibrada" (Punto Medio)</h3>
+                        <p>Comodidad razonable. Viajás con equipaje y no te privás de comer y tomar bien.</p>
+                        <br>
+                        <ul>
+                            <li><strong>Vuelo (Con equipaje):</strong> <span class="price" data-brl="R$ 1.940" data-usd="USD 380" data-ars="ARS 547.000">R$ 1.940 | USD 380 | ARS 547.000</span></li>
+                            <li><strong>Magnificent Greens (Entrada + Camping):</strong> <span class="price" data-brl="R$ 3.300" data-usd="USD 645" data-ars="ARS 950.000">R$ 3.300 | USD 645 | ARS 950.000</span></li>
+                            <li><strong>Comidas/Bebidas (Moderado):</strong> <span class="price" data-brl="R$ 2.300" data-usd="USD 450" data-ars="ARS 648.000">R$ 2.300 | USD 450 | ARS 648.000</span></li>
+                            <li style="margin-top: 15px; border-top: 1px solid #333; padding-top: 15px; color: var(--accent-color); font-size: 1.1rem;">
+                                <strong>Total Estimado:</strong> <span class="price" data-brl="R$ 7.540" data-usd="USD 1.475" data-ars="ARS 2.145.000">R$ 7.540 | USD 1.475 | ARS 2.145.000</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Opción "Confort" (Llegar y Disfrutar)</h3>
+                        <p>Para descansar bien en carpa armada, no cargar peso y consumir sin culpa.</p>
+                        <br>
+                        <ul>
+                            <li><strong>Vuelo Tradicional:</strong> <span class="price" data-brl="R$ 2.300" data-usd="USD 450" data-ars="ARS 648.000">R$ 2.300 | USD 450 | ARS 648.000</span></li>
+                            <li><strong>Easy Tent (Entrada + Carpa):</strong> <span class="price" data-brl="R$ 5.100" data-usd="USD 998" data-ars="ARS 1.468.000">R$ 5.100 | USD 998 | ARS 1.468.000</span></li>
+                            <li><strong>Comidas/Bebidas (Full):</strong> <span class="price" data-brl="R$ 3.060" data-usd="USD 600" data-ars="ARS 864.000">R$ 3.060 | USD 600 | ARS 864.000</span></li>
+                            <li style="margin-top: 15px; border-top: 1px solid #333; padding-top: 15px; color: var(--accent-color); font-size: 1.1rem;">
+                                <strong>Total Estimado:</strong> <span class="price" data-brl="R$ 10.460" data-usd="USD 2.048" data-ars="ARS 2.980.000">R$ 10.460 | USD 2.048 | ARS 2.980.000</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </article>
+
     </main>
 
     <footer>
